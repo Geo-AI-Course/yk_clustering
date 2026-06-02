@@ -1,6 +1,6 @@
 import pandas as pd
 
-df = pd.read_csv(r"resources\yk_tlv_stat_mock.csv", encoding="windows-1255")
+df = pd.read_csv(r"resources\yk_tlv_stat.csv", encoding="utf-8-sig")
 
 # Area of each statistical area (consistent per ms_ezor)
 stat_area_totals = df.groupby("ms_ezor")["ms_ezor_shetach"].first()
