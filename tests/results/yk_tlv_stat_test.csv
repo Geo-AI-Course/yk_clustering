@@ -1,0 +1,7 @@
+﻿oid_migrash,ms_gush,ms_migrash,k_yeud_rashi,t_yeud_rashi,Shape_Length,Shape_Area,Shape,ms_ezor,ms_ezor_shetach
+1,100,10,1001,מגורים,4.0,1.0,Polygon,5,2.0
+2,100,11,1002,מסחר,4.0,1.0,Polygon,5,2.0
+3,101,20,1001,מגורים,4.0,1.0,Polygon,6,2.0
+4,101,21,1003,תעסוקה,4.0,1.0,Polygon,6,2.0
+5,102,30,1005,מבנים ומוסדות ציבור,4.0,1.0,Polygon,7,2.0
+6,102,31,1006,שטחים פתוחים,4.0,1.0,Polygon,7,2.0
