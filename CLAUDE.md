@@ -6,10 +6,12 @@ Cluster Tel Aviv statistical areas by land-use zoning composition and spatial co
 
 ## Data Sources
 
-- `yk_tlv.csv`: land-use zoning table for Tel Aviv.
 - External GeoJSON / GIS layers required:
-  - land-use polygons with zoning categories
-  - Tel Aviv statistical area polygons
+  - land-use polygons with zoning categories: https://gisn.tel-aviv.gov.il/arcgis/rest/services/WM/IView2WM/MapServer/514/query
+  - Tel Aviv statistical area polygons: https://gisn.tel-aviv.gov.il/arcgis/rest/services/WM/IView2WM/MapServer/512/query
+  - both can be queried fully using where=1=1 and as geojsons or kmz.
+  - `yk_tlv.csv`: land-use zoning table for Tel Aviv: good for mocks and tests - randomly add stat area assignment without the need for gis actions.
+
 
 ## Pipeline Steps
 
